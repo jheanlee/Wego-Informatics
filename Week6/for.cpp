@@ -23,6 +23,12 @@ int main() {
   for (int i = 0; i < 10; i++) {
     cout << i << '\n';
   }
+
+  /*
+   *  for (初始變數; 終止條件; 加減) {
+   *    code_true();
+   *  }
+   */
   cout << "----------分隔線----------\n";
 
   {
@@ -31,6 +37,7 @@ int main() {
       cout << i << '\n';
     }
   }
+
   cout << "----------分隔線----------\n";
 
   // -----break-----
@@ -57,6 +64,14 @@ int main() {
     cout << i << '\n';
   }
   cout << "----------分隔線----------\n";
+
+  for (int i = 0; i < 3; i++) {
+    cout << "第" << i << "次 continue前面" << endl;
+    if (i == 1) {
+      continue;  //如果 i == 1 就跳過
+    }
+    cout << "第" << i << "次 continue後面" << endl;
+  }
 
   return 0;
 }
