@@ -35,3 +35,5 @@ add_executable(apartment-solution-bruteforce-TLE Contest/apartment-solution-brut
 add_executable(apartment-solution-binarysearch Contest/apartment-solution-binarysearch.cpp)
 add_executable(apartment-test-1to3000000-4 Contest/apartment-test-1to3000000-4.cpp)
 add_executable(apartment-test-1to3000000-3 Contest/apartment-test-1to3000000-3.cpp)
+add_executable(week8_bad_nested_code Week8/reading_nested_code.cpp)
+add_executable(week8_example Week8/table.cpp)
