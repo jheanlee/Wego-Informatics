@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-  int lhs, rhs;
+  unsigned int lhs, rhs;
   cin >> lhs >> rhs;
 
   cout << lhs << ": \n" << bitset<32> (lhs) << endl;
@@ -15,8 +15,6 @@ int main() {
   cout << "~lhs " << (~lhs) << ": \n" << bitset<32> (~lhs) << endl;
   cout << "lhs << 1 " << (lhs << 1) << ": \n" << bitset<32> (lhs << 1) << endl;
   cout << "lhs >> 1 " << (lhs >> 1) << ": \n" << bitset<32> (lhs >> 1) << endl;
-
-
 
   return 0;
 }
