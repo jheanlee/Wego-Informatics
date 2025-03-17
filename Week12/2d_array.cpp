@@ -19,8 +19,6 @@ int main() {
     cout << endl;
   }
 
-  int *arr_0 = arr[0];
-
   cout << "arr[2][1] is " << arr[2][1] << endl;
 
   return 0;
