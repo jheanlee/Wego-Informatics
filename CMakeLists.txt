@@ -23,6 +23,7 @@ add_executable(week9_example Week9/poker.cpp)
 add_executable(week10_review Week10/review.cpp)
 add_executable(week11_bitwise_operator Week11/bitwise_operator.cpp)
 add_executable(week12_2d_array Week12/2d_array.cpp)
+add_executable(week13_vector Week13/vector.cpp)
 
 add_executable(quiz quiz.cpp)
 
@@ -48,5 +49,3 @@ add_executable(secret-solution Contest/secret-solution.cpp)
 add_executable(lift-validator Contest/lift-validator.cpp)
 add_executable(lift-solution-bottom-up Contest/lift-solution-bottom-up.cpp)
 add_executable(lift-test-max-generator Contest/lift-test-max-generator.cpp)
-
-add_executable(week12_vector Week13/vector.cpp)
