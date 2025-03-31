@@ -30,7 +30,8 @@ int main() {
   cout << "v2.empty(): " << v2.empty() << endl << endl;
 
   cout << "v1.push_back(1); v1.push_back(2);" << endl << endl;
-  v1.push_back(1); v1.push_back(2);
+  v1.push_back(1);
+  v1.push_back(2);
   print_vector("v1", v1);
 
   cout << "v1.pop_back()" << endl << endl;
