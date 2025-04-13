@@ -2,7 +2,7 @@
 using namespace std;
 
 template <typename T>
-void print_vector(const string &variable_name, vector<T> vec) {
+void print_vector(const string variable_name, vector<T> vec) {
   cout << variable_name << '\n';
   cout << "size(): " << vec.size() << '\n';
   for (int &i : vec) cout << i << ' ';
@@ -69,3 +69,5 @@ int main() {
 
   return 0;
 }
+#pragma clang diagnostic pop
+#pragma clang diagnostic pop
