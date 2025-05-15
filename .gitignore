@@ -3,3 +3,10 @@
 *.exe
 *.o
 cmake-build-debug
+
+Contest_Fall_2024/testlib.h
+Contest_Spring_2025/testlib.h
+
+
+
+/Contest_Spring_2025/

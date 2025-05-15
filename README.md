@@ -10,7 +10,7 @@ Source files and PDF files are classified by week (however, the real course did 
 In each folder, there are PDF(s) and C++ source code used for demonstration. 
 Some of the PDFs also include coding practices for students to try.
 
-The [Contest](./Contest) folder holds validator, checker, solution, and generator files for [Codeforces Polygon contests](https://polygon.codeforces.com)  
+The [Contest](./Contest_Fall_2024) folder holds validator, checker, solution, and generator files for [Codeforces Polygon contests](https://polygon.codeforces.com)  
   
 ### License  
   
