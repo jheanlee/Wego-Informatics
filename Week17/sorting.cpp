@@ -76,7 +76,7 @@ void merge_sort(vector<int> &elements, int lhs, int rhs) {
     return;
   }
 
-  int mid = lhs + (rhs - lhs) / 2;
+  int mid = lhs + (rhs - lhs) / 2;  //  (lhs + rhs)/2
   merge_sort(elements, lhs, mid);
   merge_sort(elements, mid + 1, rhs);
   merge(elements, lhs, mid, mid + 1, rhs);
