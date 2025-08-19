@@ -31,8 +31,8 @@ int main() { //                              \
   cout << "i: " << i << endl; // 100
   cout << "i + 2: " << i + 2 << endl; // 102
   cout << "i - 2: " << i - 2 << endl; // 98
-  cout << "i * 2: " << i * 2 << endl;
-  cout << "i / 2: " << i / 2 << endl;
+  cout << "i * 2: " << i * 2 << endl; // 200
+  cout << "i / 2: " << i / 2 << endl; // 50
   cout << "i % 2: " << i % 2 << endl; // 0
   i++; // i == 101
   cout << "i after i++: " << i << endl; // 101
@@ -43,7 +43,7 @@ int main() { //                              \
   int j = 10;
   int k = 11;
   cout << "j: " << j << endl; // 10
-  cout << "k: " << k << endl;
+  cout << "k: " << k << endl; // 11
   j = k; // j == k == 11
   cout << "j after j = k: " << j << endl; // 11
   cout << "k after j = k: " << k << endl; // 11
@@ -52,12 +52,12 @@ int main() { //                              \
 
   int l = 100;
   int m = 100;
-  cout << "l: " << l << endl;
-  cout << "m: " << m << endl;
+  cout << "l: " << l << endl; //  100
+  cout << "m: " << m << endl; //  100
   l += 1;
   m = m + 1;
-  cout << "l after l += 1: " << l << endl;
-  cout << "m after m = m + 1: " << m << endl;
+  cout << "l after l += 1: " << l << endl;  //  101
+  cout << "m after m = m + 1: " << m << endl; //  101
   return 0;
 }
 
