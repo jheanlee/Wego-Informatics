@@ -3,3 +3,4 @@
 *.exe
 *.o
 cmake-build-debug
+*.DS_Store
