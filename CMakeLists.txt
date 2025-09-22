@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 project(Wego-Informatics)
 set(CMAKE_CXX_STANDARD 17)
 
@@ -41,3 +41,6 @@ add_executable(week18_lc35 week18/leetcode35.cpp)
 add_executable(week18_lc35_2 week18/leetcode35_2.cpp)
 add_executable(week18_lc1539 week18/leetcode1539.cpp)
 add_executable(week18_lc2540 week18/leetcode2540.cpp)
+add_executable(week19_lc1456 week19/leetcode1456.cpp)
+add_executable(week19_lc186_1 week19/leetcode186_1.cpp)
+add_executable(week19_lc186_2 week19/leetcode186_2.cpp)
