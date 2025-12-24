@@ -4,5 +4,3 @@
 *.o
 cmake-build-debug
 *.DS_Store
-
-contest_fall_2025
