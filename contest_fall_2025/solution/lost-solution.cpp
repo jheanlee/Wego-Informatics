@@ -24,6 +24,7 @@ int main() {
     }
   }
 
+  // {{i_c, j_c}, length}
   queue<pair<pair<int, int>, int>> q;
   q.emplace(make_pair(i0, j0), 0);
 
