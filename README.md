@@ -1,5 +1,5 @@
 This repository contains PDF files and source code and other educational resources for
-Informatics Club (2024) of Taipei Wego Private Senior High School.  
+Informatics Club (2024 and 2025) of Taipei Wego Private Senior High School.  
   
 This course is designed for beginners that have no or little knowledge about C++ and general programming.  
 All code is written in competitive programming style C++.  
